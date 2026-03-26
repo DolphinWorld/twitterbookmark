@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>X Bookmark Summarizer</title>
+    <style>
+      :root {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      body {
+        margin: 0;
+        background: #f3f5fa;
+        color: #152033;
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+      article {
+        background: #fff;
+        border: 1px solid #d8dfec;
+        border-radius: 18px;
+        padding: 32px;
+        box-shadow: 0 18px 50px rgba(23, 32, 51, 0.08);
+      }
+      h1 {
+        margin-top: 0;
+        font-size: 32px;
+      }
+      p, li {
+        line-height: 1.65;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 12px 16px;
+        border-radius: 999px;
+        background: #152033;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .btn.secondary {
+        background: white;
+        color: #152033;
+        border: 1px solid #cdd6e5;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>X Bookmark Summarizer</h1>
+        <p>A Chrome extension that collects posts from your logged-in X bookmarks page and summarizes them with your own OpenAI API key.</p>
+        <ul>
+          <li>Collects visible bookmarks from the bookmarks page</li>
+          <li>Sends bookmark content to OpenAI only when you request summarization</li>
+          <li>Stores your API key and latest results locally in Chrome extension storage</li>
+        </ul>
+        <div class="actions">
+          <a class="btn" href="./privacy-policy.html">Privacy Policy</a>
+          <a class="btn secondary" href="https://github.com/DolphinWorld/twitterbookmark">GitHub Repository</a>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
