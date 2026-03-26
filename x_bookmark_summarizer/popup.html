@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>X Bookmark Summarizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>X Bookmark Summarizer</h1>
+      <p class="muted">
+        Open your logged-in X bookmarks page, then run one step to collect bookmarks and generate a summary.
+      </p>
+      <p class="muted">
+        Bookmark text is sent to OpenAI only when you click <strong>Collect + Summarize</strong>. Your API key, bookmarks, and latest summary stay in Chrome extension local storage.
+      </p>
+
+      <div class="actions">
+        <button id="runBtn">Collect + Summarize</button>
+      </div>
+
+      <div class="large-summary-cta">
+        <a href="summary.html" target="_blank">Open large summary view ↗</a>
+      </div>
+
+      <label class="field">
+        <span>Summary output</span>
+        <textarea id="output" rows="24" placeholder="LLM summary will appear here..."></textarea>
+      </label>
+
+      <details class="advanced-settings" id="advancedSettings">
+        <summary>Advanced settings</summary>
+
+        <label class="field">
+          <span>Max tweets to scan</span>
+          <input id="maxTweets" type="number" min="10" max="1000" step="10" value="100" />
+        </label>
+
+        <label class="field checkbox-row">
+          <input id="includeLinksOnly" type="checkbox" />
+          <span>Only include bookmarked posts with external links</span>
+        </label>
+
+        <label class="field">
+          <span>Summary prompt</span>
+          <textarea id="prompt" rows="8">Summarize these X bookmarks into:
+1. TL;DR
+2. Major themes
+3. Key links/resources mentioned
+4. Recommended next steps
+5. General advice
+
+Also group similar bookmarks together and mention repeated topics.</textarea>
+        </label>
+
+        <div class="footer-links">
+          <a href="options.html" target="_blank">Settings &amp; export ↗</a>
+          <span>·</span>
+          <a href="privacy.html" target="_blank">Privacy ↗</a>
+        </div>
+      </details>
+    </main>
+    <script src="demo-data.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

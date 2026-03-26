@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>X Bookmark Summarizer Settings</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Settings</h1>
+      <p class="muted">Store your API key locally in Chrome extension storage. Export is kept here to keep the popup simple.</p>
+      <p class="muted">Nothing is sent to OpenAI until you click Collect + Summarize from the popup.</p>
+
+      <label class="field">
+        <span>OpenAI API key</span>
+        <input id="openaiApiKey" type="password" placeholder="sk-..." />
+      </label>
+
+      <label class="field">
+        <span>Model</span>
+        <input id="openaiModel" type="text" value="gpt-4.1-mini" />
+      </label>
+
+      <label class="field">
+        <span>System prompt</span>
+        <textarea id="systemPrompt" rows="8">You summarize a user's saved X bookmarks into a useful, structured digest. Return clear markdown with these sections: TL;DR, Major Themes, Key Links and Resources, Recommended Next Steps, and General Advice. In Recommended Next Steps, give concrete follow-up actions the user can take next. In General Advice, give broader strategic guidance based on the bookmarks, such as what to learn more about, what to validate, and how to turn the information into action. Be concise but specific.</textarea>
+      </label>
+
+      <div class="actions">
+        <button id="saveBtn">Save settings</button>
+        <button id="downloadBtn" type="button">Download last bookmarks JSON</button>
+      </div>
+      <p class="muted"><a href="privacy.html" target="_blank">View privacy summary ↗</a></p>
+      <div class="status" id="status">Ready.</div>
+    </main>
+    <script src="demo-data.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>

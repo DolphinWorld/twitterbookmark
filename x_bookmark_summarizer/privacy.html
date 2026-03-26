@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Privacy Summary</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Privacy Summary</h1>
+      <p class="muted">This page explains what the extension stores and when data is sent off-device.</p>
+
+      <h2>What is stored locally</h2>
+      <ul>
+        <li>Your OpenAI API key</li>
+        <li>Your preferred model and system prompt</li>
+        <li>The last collected bookmark set</li>
+        <li>The most recent generated summary</li>
+      </ul>
+
+      <h2>What is sent to OpenAI</h2>
+      <p class="muted">
+        When you click <strong>Collect + Summarize</strong>, the extension sends the collected bookmark text, URLs, timestamps, and extracted links to the OpenAI Chat Completions API using the API key you provided.
+      </p>
+
+      <h2>What is not sent anywhere else</h2>
+      <ul>
+        <li>No analytics or tracking service is used</li>
+        <li>No bookmark data is sent to a separate backend owned by this extension</li>
+        <li>No advertising or sale of user data is involved</li>
+      </ul>
+
+      <h2>Scope</h2>
+      <p class="muted">The extension only runs on the X/Twitter bookmarks page and when calling the OpenAI API for summarization.</p>
+    </main>
+  </body>
+</html>
