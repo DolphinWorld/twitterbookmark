@@ -12,6 +12,9 @@ Use this as the last-mile checklist in the dashboard.
   - `/Users/jacksu/projects/twitterbookmark/store/chrome/assets/screenshots/screenshot-03-summary.png`
 - Store icon:
   - `/Users/jacksu/projects/twitterbookmark/store/chrome/assets/icon-128.png`
+- Promo tiles:
+  - `/Users/jacksu/projects/twitterbookmark/store/chrome/assets/promo-small-440x280.png`
+  - `/Users/jacksu/projects/twitterbookmark/store/chrome/assets/marquee-1400x560.png`
 
 ## What To Copy Into The Form
 
@@ -34,7 +37,7 @@ Use this as the last-mile checklist in the dashboard.
 2. Create a new item.
 3. Upload `x_bookmark_summarizer_extension_v0_1_4_store_ready.zip`.
 4. Fill in the listing text from `STORE_LISTING.md`.
-5. Upload the screenshots and icon from `store/chrome/assets/`.
+5. Upload the screenshots, icon, and promo tiles from `store/chrome/assets/`.
 6. Complete the privacy disclosures using `PRIVACY_AND_DISCLOSURES.md`.
 7. Paste the reviewer notes from `REVIEWER_NOTES.md`.
 8. Add the public privacy policy URL.

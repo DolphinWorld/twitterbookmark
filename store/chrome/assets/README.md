@@ -12,7 +12,6 @@ Prepare these files here once the extension UI is final.
 ## Recommended Additional Assets
 
 - `promo-small-440x280.png`
-- `promo-large-920x680.png`
 - `marquee-1400x560.png`
 
 ## Practical Guidance
@@ -25,3 +24,12 @@ Prepare these files here once the extension UI is final.
 ## Verify At Upload Time
 
 Store image requirements can change. Reconfirm the accepted dimensions in the Chrome Web Store dashboard immediately before upload.
+
+## Current Generated Files
+
+- `icon-128.png`
+- `screenshots/screenshot-01-popup.png`
+- `screenshots/screenshot-02-settings.png`
+- `screenshots/screenshot-03-summary.png`
+- `promo-small-440x280.png`
+- `marquee-1400x560.png`

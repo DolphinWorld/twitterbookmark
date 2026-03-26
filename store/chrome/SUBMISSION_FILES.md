@@ -27,7 +27,16 @@ This is the exact file set prepared for Chrome Web Store submission.
 - Purpose:
   - Chrome Web Store screenshots
 
-### 4. Store listing text
+### 4. Promo tiles
+
+- Local:
+  - `/Users/jacksu/projects/twitterbookmark/store/chrome/assets/promo-small-440x280.png`
+  - `/Users/jacksu/projects/twitterbookmark/store/chrome/assets/marquee-1400x560.png`
+- Purpose:
+  - `promo-small-440x280.png`: small promo tile
+  - `marquee-1400x560.png`: marquee promo tile
+
+### 5. Store listing text
 
 - Local:
   - `/Users/jacksu/projects/twitterbookmark/store/chrome/STORE_LISTING.md`
@@ -37,21 +46,21 @@ This is the exact file set prepared for Chrome Web Store submission.
   - detailed description
   - single purpose statement
 
-### 5. Reviewer instructions
+### 6. Reviewer instructions
 
 - Local:
   - `/Users/jacksu/projects/twitterbookmark/store/chrome/REVIEWER_NOTES.md`
 - Purpose:
   - reviewer testing steps
 
-### 6. Privacy disclosures
+### 7. Privacy disclosures
 
 - Local:
   - `/Users/jacksu/projects/twitterbookmark/store/chrome/PRIVACY_AND_DISCLOSURES.md`
 - Purpose:
   - Chrome Web Store privacy and data disclosure answers
 
-### 7. Public privacy policy
+### 8. Public privacy policy
 
 - Local source:
   - `/Users/jacksu/projects/twitterbookmark/store/chrome/PRIVACY_POLICY.md`
